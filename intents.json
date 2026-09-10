@@ -1,0 +1,117 @@
+{
+  "intents": [
+    {
+      "tag": "tervehdys",
+      "patterns": ["Moi", "Hei", "Terve", "Päivää", "Perunabotti", "Moro"],
+      "responses": [
+        "Terve! Olen PerunaRobo. Kysy minulta mitä vain perunoiden kasvattamisesta!",
+        "Hei! Mahtavaa, että haluat kasvattaa omia perunoita. Mistä aloitetaan?",
+        "Moi! Olen valmiina auttamaan sinua matkallasi kohti täydellistä perunasatoa."
+      ]
+    },
+    {
+      "tag": "istutus_aika",
+      "patterns": ["Milloin peruna istutetaan?", "Koska istutan?", "Istutusaika", "Milloin perunat maahan?"],
+      "responses": [
+        "Perunat istutetaan yleensä toukokuussa, kun maa on lämmennyt vähintään +8 asteeseen. Lapissa istutus menee usein kesäkuun alkuun.",
+        "Nyrkkisääntö on, että kun koivun lehdet ovat hiirenkorvalla, on aika laittaa perunat maahan."
+      ]
+    },
+    {
+      "tag": "idätys",
+      "patterns": ["Pitääkö idättää?", "Miten idätän perunat?", "Idättäminen", "Valoitu", "Idut"],
+      "responses": [
+        "Idättäminen valossa noin 2-4 viikkoa ennen istutusta nopeuttaa satoa. Laita perunat valoisaan ja viileään paikkaan.",
+        "Idätys ei ole pakollista, mutta se antaa perunalle hyvän etumatkan kasvukauteen!"
+      ]
+    },
+    {
+      "tag": "lajikkeet",
+      "patterns": ["Mikä lajike on paras?", "Hyviä perunalajikkeita", "Mitä perunaa kannattaa kasvattaa?", "Lajikkeet"],
+      "responses": [
+        "Suosittuja lajikkeita ovat esimerkiksi jauhoinen 'Pito', yleisperuna 'Annabelle' tai varhaisperuna 'Timo'.",
+        "Valinta riippuu mausta! Katso kattava lista lajikkeista täältä: https://www.siemenperunakeskus.fi/lajikkeet"
+      ]
+    },
+    {
+      "tag": "luonnonmukainen_torjunta",
+      "patterns": ["Tuholaiset", "Lehtikuoriainen", "Eroon ötököistä", "Luonnonmukainen torjunta", "Miten hävitän kuoriaiset?"],
+      "responses": [
+        "Koloradonkuoriainen on paha tuholainen. Kerää ne käsin pois tai käytä luonnonmukaista neem-öljyä.",
+        "Puutuhka ja nokkosvesi ovat vanhan kansan keinoja pitää loiset loitolla perunamaalta."
+      ]
+    },
+    {
+      "tag": "varastointi",
+      "patterns": ["Miten peruna säilyy?", "Kellarisäilytys", "Varastointi lämpötila", "Mihin laitan perunat talveksi?"],
+      "responses": [
+        "Paras säilytyslämpötila perunalle on +2...+4 astetta. Liian kylmässä peruna makeutuu, liian lämpimässä se alkaa itää.",
+        "Säilytä perunat pimeässä! Valo saa ne vihertymään ja muuttumaan syömäkelvottomiksi."
+      ]
+    },
+    {
+      "tag": "ruoanlaitto",
+      "patterns": ["Mitä teen perunasta?", "Perunareseptit", "Muusi vai keitinperuna?", "Mihin Annabelle sopii?"],
+      "responses": [
+        "Jauhoiset lajikkeet (kuten Pito) sopivat muusiin ja uuniperunaksi. Kiinteät (kuten Nicola tai Annabelle) taas salaatteihin ja keitinperunaksi.",
+        "Kokeile tehdä Lapin puikuloista aitoa perunamuusia – se on klassikko! Reseptejä löydät täältä: https://www.valio.fi/reseptit/perunamuusi-eli-perunapuuro/"
+      ]
+    },
+    {
+      "tag": "lapin_erikoisuus",
+      "patterns": ["Lapin puikula", "Puikula", "Mikä on puikula?", "Miten puikula kasvaa?"],
+      "responses": [
+        "Lapin Puikula on saanut EU:n nimisuojan. Se on erittäin jauhoinen ja maukas lajike, joka viihtyy pohjoisessa pitkässä päivässä.",
+        "Puikula on herkkä perunarutolle, mutta sen maku on vailla vertaa. Muista keittää se varovasti höyryssä, ettei se hajoa!"
+      ]
+    },
+    {
+      "tag": "huumori",
+      "patterns": ["Kerro vitsi", "Naurata minua", "Perunahuumoria"],
+      "responses": [
+        "Mitä peruna sanoi toiselle? - Ei mulla oo mitään hätää, mä oon ihan pottuna!",
+        "Miksi peruna meni lääkäriin? - Koska sillä oli silmiä, mutta se ei nähnyt mitään."
+      ]
+    },
+    {
+      "tag": "lannoitus_ja_maa",
+      "patterns": ["Millaista multaa?", "Tarvitseeko lannoitetta?", "Perunamaa", "Lannoitus", "Kalkitus"],
+      "responses": [
+        "Peruna viihtyy parhaiten hiekkapitoisessa, ilmavassa maassa. Vältä liikaa typpeä, jotta saat perunoita etkä vain suuria varsia!",
+        "Muista, että peruna ei pidä vastakalkitusta maasta, se voi aiheuttaa perunarupea."
+      ]
+    },
+    {
+      "tag": "hoito",
+      "patterns": ["Miten hoidan perunoita?", "Multaus", "Kastelu", "Miten multaan?", "Pitääkö kastella?"],
+      "responses": [
+        "Tärkein hoitotoimenpide on multaus eli mullan vetäminen varsien ympärille. Se estää perunoiden vihertymisen.",
+        "Kuivina kesinä peruna kaipaa kastelua erityisesti mukuloiden muodostumisvaiheessa juhannuksen tienoilla."
+      ]
+    },
+    {
+      "tag": "nosto",
+      "patterns": ["Milloin perunat nostetaan?", "Koska sato on valmis?", "Sato", "Nostoaika", "Milloin voin syödä?"],
+      "responses": [
+        "Varhaisperunoita voi maistella jo muutama viikko kukinnan jälkeen. Talviperunat nostetaan yleensä syyskuussa.",
+        "Nosta perunat kuivana päivänä ja anna niiden kuivahtaa hetki pinnasta ennen varastointia."
+      ]
+    },
+    {
+      "tag": "ongelmat",
+      "patterns": ["Perunarutto", "Vihreä peruna", "Taudit", "Miksi peruna on vihreä?", "Rutto"],
+      "responses": [
+        "Vihreää perunaa ei saa syödä, se sisältää solaniinia. Se johtuu siitä, että peruna on saanut valoa mullan alla.",
+        "Perunarutto on yleinen vaiva sateisina kesinä. Lisätietoa taudeista löydät täältä: https://www.luke.fi/fi/seurannat/perunaruton-seuranta"
+      ]
+    },
+    {
+      "tag": "kiitos",
+      "patterns": ["Kiitos", "Kiitti", "Selvä", "Tämä auttoi"],
+      "responses": [
+        "Ole hyvä! Onnea perunamaalle!",
+        "Eipä kestoja, kysy ihmeessä lisää jos mieltäsi askarruttaa jokin muu perunajuttu."
+      ]
+    }
+  ]
+}
